@@ -1,0 +1,80 @@
+Document
+
+getElementByID
+Retorna o elemento com o ID Referenciado.
+
+Sintaxe
+ var exemplo = document.getElementByID("idreferenciada")
+ var = variável 
+ exemplo = declaração da variável
+ document = interface
+ getElementByID = método
+
+
+getElementByTagName
+Retorna o elemento ou uma coleção de elements com o ID/tag fornecido.
+let exemplo = document.getElementsByTagName("tagfornecida")
+
+createElement
+O método cria um elemento com o tipo especificado ou um HTMLUnknownElement caso o nome do elemento não seja reconhecido
+
+
+createTextNode
+Cria um elemento de texto node com um texto
+
+createAttribute
+Cria um atributo com o nome designado
+
+addEventListener
+Adiciona um "escutador" de ação ao elemento selecionado
+
+
+Node
+
+appendChild(node)
+Adiciona Node como um filho
+
+removeChild(node)
+Remove o elemento
+
+hasChildNodes()
+Retorna um boolean se o elemento tem filhos
+
+childNodes()
+Retorna uma Lista do elemento filho
+
+parentNode()
+Retorna o elemento pai como um objeto
+
+insertBefore(novo, existente)
+Adiciona um elementoNode como filho do antigo elemento
+
+
+Mouse
+
+onclick
+
+onmousehover
+
+onmouseout
+
+
+Teclado
+
+onkeydown
+
+onkeyup
+
+onkeypress
+
+
+Form
+
+onchange
+
+onfocus
+
+onblur
+
+oninput
+
